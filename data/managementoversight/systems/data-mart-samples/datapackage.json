@@ -87,7 +87,6 @@
 		"bytes":845,
 		"schema":{
 			"fields":[
-			,,,,,,,,
 				{
 					"name":"site_id",
 					"type":"string"
