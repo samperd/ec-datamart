@@ -53,6 +53,9 @@
     {
 		"path":"license-en.txt",
 		"title":"License English",
+		"format":"txt",
+		"mediatype":"text/plain",
+		"bytes":"4000",
 		"schema":{
 			"fields":[
 				{
@@ -65,10 +68,36 @@
 	{
 		"path":"license-fr.txt",
 		"title":"License Francais",
+		"format":"txt",
+		"mediatype":"text/plain",
+		"bytes":"5000",
 		"schema":{
 			"fields":[
 				{
 					"name":"license",
+					"type":"string"
+				}
+			]
+		}
+		},
+	{
+		"path":"index.csv",
+		"title":"Directory Index",
+		"format":"csv",
+		"mediatype":"text/csv",
+		"bytes":"1000",
+		"schema":{
+			"fields":[
+				{
+					"name":"file_path",
+					"type":"string"
+				}
+				{
+					"name":"file_name",
+					"type":"string"
+				}
+				{
+					"name":"file_description",
 					"type":"string"
 				}
 			]
