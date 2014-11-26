@@ -42,7 +42,7 @@
   "description_fr":"Le catalogue de donnees d'Environnement Canada offre comme solution un guichet unique pour décrire, publier et decouvrir les donnees environnementales et scientifiques d'EC.",
   "keywords": [ "home","Core Subject Thesaurus" ],
   "maintainers":[{
-		"name: "EC Functional group(eg CMC)",
+		"name": "EC Functional group(eg CMC)",
 		"email":"enviroinfo@ec.gc.ca",
 		"web":"http://ec.gc.ca"
 		{],
