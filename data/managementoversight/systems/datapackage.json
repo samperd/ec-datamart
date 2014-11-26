@@ -1,7 +1,5 @@
-{
-
-
-    "@context":{
+{  
+	"@context":{
 		"skos":"http://www.w3.org/2004/02/skos/core",
 		"ex": "http://example.com/vocab/",
 		"foaf": "http://xmlns.com/foaf/0.1",
@@ -16,80 +14,68 @@
 		"type": { "@id": "dc:type" },
 		"broader": {"@id":"skos:broader"}
 	},
-    
+	
 
     "licenses": [{
                 "type": "OGL-Canada-2.0",
                 "url": "http://licenses.opendefinition.org/licenses/OGL-Canada-2.0.json"  }], 
     "datapackage_version": "1.0-beta.10", 
-    "version":"1.0", // version of the EC Datamart
+    "version":"1.0", 
     "homepage":"http://donnees.ec.gc.ca/data", 
     "image":"http://www.canada.ca/dist/assets/wmms-spl.svg", 
     "sources":[{
         "name":"Government of Canada, Environment Canada",
         "web":"http://ec.gc.ca",
-        "e-mail":"enviroinfo@ec.gc.ca",
+        "e-mail":"enviroinfo@ec.gc.ca"
     }],
  
     "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
     "base":"http://data.ec.gc.ca/data/", 
 
 
-    "last_updated": "2014-01-1",
-    "name": "Home",
-    "type":"home",
-    "title": "Home",
-    "title_fr": "Accueil",
-    "description": "The Environment Canada Data Catalogue provides a one-stop solution to describing, publishing and discovering EC's environmental and scientific data.",
-    "description_fr":"Le catalogue de donnees d'Environnement Canada offre comme solution un guichet unique pour décrire, publier et decouvrir les donnees environnementales et scientifiques d'EC.",
-    "keywords": [ "home","Core Subject Thesaurus" ],
-    "Contributors":[{
-        "name":"EC Point of Contact",
-        "email":"their e-mail",
-        "web":"http://ec.gc.ca"
-    }],
-    "maintainers":"[EC Functional group(eg CMC)]",
+	
+  "name": "systems",
+  "type":"Sub-Theme",
+  "title": "Management and Oversight Systems",
+  "title_fr": "Accueil",
+  "description": "The Environment Canada Data Catalogue provides a one-stop solution to describing, publishing and discovering EC's environmental and scientific data.",
+  "description_fr":"Le catalogue de donnees d'Environnement Canada offre comme solution un guichet unique pour décrire, publier et decouvrir les donnees environnementales et scientifiques d'EC.",
+  "keywords": [ "home","Core Subject Thesaurus" ],
+  "maintainers":[{
+		"name": "EC Functional group(eg CMC)",
+		"email":"enviroinfo@ec.gc.ca",
+		"web":"http://ec.gc.ca"
+		}],
 
-   
-    "resources": [
-        {
-        "path":"Readme.md",
-        "title":"Readme",
-        "name":"Readme.md",
-        "format":"md",
-        "mediatype":"text/x-markdown",
-        "bytes":"1000"}
-        {
-        "path":"File.json",
-        "title":"File",
-        "name":"File.json",
-        "format":"json",
-        "mediatype":"text/json",
-        "bytes":"1000"}
-        {
-        }
-        
-        }],
+  "last_updated": "2014-01-1",
+  "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
+  "resources": [
+	{
+		"path":"index.csv",
+		"title":"Directory Index",
+		"format":"csv",
+		"mediatype":"text/csv",
+		"bytes":1000,
+		"schema":{
+			"fields":[
+				{
+					"name":"name",
+					"type":"string"
+				},
+				{
+					"name":"path",
+					"type":"string"
+				},
+				{
+					"name":"description",
+					"type":"string"
+				}
+			]
+		}
+	}
     
-
-    "external_resources": [{
-        "URL":"[resource URL provided in MD record]",
-        "title":"[Title of resource provided in the MD record]",
-        "name":""
-        }],
-    
-
-    "links":[{
-        "path":"air",
-        "title":"Air",
-        "name":"[filename]",
-        
-        }]
-    
-
-    "services": [{
-        "URL":"[resource URL provided in MD record]",
-        "title":"[Title of resource provided in the MD record]"
-        }],
+	
+  ]
+}
     
     

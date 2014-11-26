@@ -19,14 +19,18 @@
         "request":{ "dateCreated": "2014-01-01T00:00:00+00:00" },
         "licenses": [ "http://data.gc.ca/eng/open-government-licence-canada"],
 		"name":"Environment Canada Data Mart",
-        "description": "The Environment Canada Data Catalogue provides a one-stop solution to describing, publishing and discovering EC's environmental and scientific data.",
-  "description_fr":"Le catalogue de donnees d'Environnement Canada offre comme solution un guichet unique pour décrire, publier et decouvrir les donnees environnementales et scientifiques d'EC.",
+        "description": {
+			"en":"The Environment Canada Data Catalogue provides a one-stop solution to describing, publishing and discovering EC's environmental and scientific data.",
+			"fr":"Le catalogue de donnees d'Environnement Canada offre comme solution un guichet unique pour décrire, publier et decouvrir les donnees environnementales et scientifiques d'EC.",
+			}
         "keywords":"Open Data",
         "publisher": "Government of Canada",
         "dateCreated":"1867-07-01T00:00:01+00:00",
         "dateModified":"1982-03-29T00:00:01+00:00"
 		"version":{"0.1"}
     }
+	
+	
 	
 	
 }
