@@ -34,7 +34,7 @@
 
 
 	
-  "name": "Home",
+  "name": "home",
   "type":"home",
   "title": "Home",
   "title_fr": "Accueil",
@@ -46,7 +46,7 @@
         "email":"their e-mail",
         "web":"http://ec.gc.ca"
     }],
-    "maintainers":"[EC Functional group(eg CMC)]",
+   "maintainers":["EC Functional group(eg CMC)"],
 
 
 
