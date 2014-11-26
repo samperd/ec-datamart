@@ -116,13 +116,14 @@
 				},
 				{
 					"name":"geo_lat",
-					"type":"string"
+					"type":"geopoint"
 				},
 				{
 					"name":"geo_lon",
-					"type":"string"
-				}
+					"type":"geopoint"
+				}				
 			]
+		"primaryKey":"site_id"
 		}
 	},
 	{
