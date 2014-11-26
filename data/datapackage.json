@@ -41,12 +41,11 @@
   "description": "The Environment Canada Data Catalogue provides a one-stop solution to describing, publishing and discovering EC's environmental and scientific data.",
   "description_fr":"Le catalogue de donnees d'Environnement Canada offre comme solution un guichet unique pour décrire, publier et decouvrir les donnees environnementales et scientifiques d'EC.",
   "keywords": [ "home","Core Subject Thesaurus" ],
-  "Contributors":[{
-        "name":"EC Point of Contact",
-        "email":"their e-mail",
-        "web":"http://ec.gc.ca"
-    }],
-   "maintainers":["EC Functional group(eg CMC)"],
+  "maintainers":[{
+		"name: "EC Functional group(eg CMC)",
+		"email":"enviroinfo@ec.gc.ca",
+		"web":"http://ec.gc.ca"
+		{],
 
 
 
