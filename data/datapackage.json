@@ -78,7 +78,7 @@
 		"title":"License English",
 		"format":"txt",
 		"mediatype":"text/plain",
-		"bytes":4000,
+		"bytes":4000
 		
 	},
 	{
@@ -86,7 +86,7 @@
 		"title":"License Francais",
 		"format":"txt",
 		"mediatype":"text/plain",
-		"bytes":5000,
+		"bytes":5000
 	},
 	
   ]
