@@ -103,10 +103,6 @@
 					"type":"string"
 				},
 				{
-					"name":"address",
-					"type":"string"
-				},
-				{
 					"name":"prov",
 					"type":"string"
 				},
