@@ -1,7 +1,7 @@
 site_id,region,address,city,prov,phone,email,geo_lat,geo_lon
-1,National Office,10ÿWellington,Gatineau,Quebec,819-997-2800,enviroinfo@ec.gc.ca,45.425954,-75.723473
+1,National Office,10 Wellington,Gatineau,Quebec,819-997-2800,enviroinfo@ec.gc.ca,45.425954,-75.723473
 2,Atlantic,45 Alderney Drive,Dartmouth,Nova Scotia,902-426-7231,15th.reception@ec.gc.ca,44.665338,-63.569778
-3,Quebec,"1550, avenue d'Estimauville",Qu‚bec,Qu‚bec,1-800-668-6767,enviroinfo@ec.gc.ca,46.844053,-71.213379
+3,Quebec,"1550, avenue d'Estimauville",Québec,Québec,1-800-668-6767,enviroinfo@ec.gc.ca,46.844053,-71.213379
 4,Ontario,4905 Dufferin Street,Toronto,Ontario,416-739-4826,enviroinfo@ec.gc.ca,43.781258,-79.468498
 5,"Praries, Northwest Territories and Nunavut",9250 49 St NW,Edmonton,Alberta,780-951-8600,enviroinfo@ec.gc.ca,53.529723,-113.414852
 6,British Columbia,401 Burrard Street,Vancouver,British Columbia,604-664-9100,enviroinfo@ec.gc.ca,49.287081,-123.11787
