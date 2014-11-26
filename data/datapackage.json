@@ -26,6 +26,7 @@
   "last_updated": "2014-01-1",
   "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
   "resources": [
-    {"path":"air","title":"Air"}
+    {"path":"license-en.txt","title":"License English"},
+	{"path":"license-fr.txt","title":"License Francais"}
   ]
 }
