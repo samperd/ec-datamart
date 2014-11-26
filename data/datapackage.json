@@ -1,8 +1,4 @@
 {  
-// Basic datapackage.json template used throughout the EC datamart
-// 
-
-    //Basic context information and name spaces
 	"@context":{
 		"skos":"http://www.w3.org/2004/02/skos/core",
 		"ex": "http://example.com/vocab/",
@@ -19,14 +15,14 @@
 		"broader": {"@id":"skos:broader"}
 	},
 	
-	// Metadata about the EC data Repository
+
     "licenses": [{
                 "type": "OGL-Canada-2.0",
-                "url": "http://licenses.opendefinition.org/licenses/OGL-Canada-2.0.json"  }], //Uses the GOC open data license
-    "datapackage_version": "1.0-beta.10", // version of the datapackage protocol used
-    "version":"1.0", // version of the EC Datamart
-    "homepage":"http://donnees.ec.gc.ca/data", // Home page of the Datamart
-    "image":"http://www.canada.ca/dist/assets/wmms-spl.svg", // Generic GOC watermark
+                "url": "http://licenses.opendefinition.org/licenses/OGL-Canada-2.0.json"  }], 
+    "datapackage_version": "1.0-beta.10", 
+    "version":"1.0", 
+    "homepage":"http://donnees.ec.gc.ca/data", 
+    "image":"http://www.canada.ca/dist/assets/wmms-spl.svg", 
     "sources":[{
         "name":"Government of Canada, Environment Canada",
         "web":"http://ec.gc.ca",
@@ -34,10 +30,9 @@
     }],
  
     "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
-    //"base":"http://data.ec.gc.ca/data/", // not required as it may make resource URL's long
+    "base":"http://data.ec.gc.ca/data/", 
 
-// Metadata about the data resource	
-// This section impacts the displayed elements in the datamart
+
 	
   "name": "Home",
   "type":"home",
@@ -53,7 +48,7 @@
     }],
     "maintainers":"[EC Functional group(eg CMC)]",
 
-// Metadata about data resources found in this directory
+
 
   "last_updated": "2014-01-1",
   "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
