@@ -80,6 +80,57 @@
 		}
 	},
 	{
+		"path":"sites.csv",
+		"title":"Office Locations",
+		"format":"csv",
+		"mediatype":"text/csv",
+		"bytes":845,
+		"schema":{
+			"fields":[
+			,,,,,,,,
+				{
+					"name":"site_id",
+					"type":"string"
+				},
+				{
+					"name":"region",
+					"type":"string"
+				},
+				{
+					"name":"address",
+					"type":"string"
+				},{
+					"name":"city",
+					"type":"string"
+				},
+				{
+					"name":"address",
+					"type":"string"
+				},
+				{
+					"name":"prov",
+					"type":"string"
+				},
+				{
+					"name":"phone",
+					"type":"string"
+				},
+				{
+					"name":"email",
+					"type":"string"
+				},
+				{
+					"name":"geo_lat",
+					"type":"string"
+				},
+				{
+					"name":"geo_lon",
+					"type":"string"
+				}
+			]
+		}
+	},
+	{
 		"path":"digest.txt",
 		"title":"Directory Index",
 		"format":"txt",
