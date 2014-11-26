@@ -101,7 +101,7 @@
 			"csvddfVersion": 1.0,
 			"delimiter": "\t",
 			"doubleQuote": true,
-			"lineTerminator": "\r\n",
+			"lineTerminator": "\n",
 			"quoteChar": "\"",
 			"skipInitialSpace": true,
 			"header": false
