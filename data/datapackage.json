@@ -91,11 +91,11 @@
 				{
 					"name":"file_path",
 					"type":"string"
-				}
+				},
 				{
 					"name":"file_name",
 					"type":"string"
-				}
+				},
 				{
 					"name":"file_description",
 					"type":"string"
