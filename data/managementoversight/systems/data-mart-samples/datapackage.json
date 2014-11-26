@@ -123,8 +123,8 @@
 					"type":"geopoint"
 				}				
 			]
+		}	
 		"primaryKey":"site_id"
-		}
 	},
 	{
 		"path":"digest.txt",
