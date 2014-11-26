@@ -55,7 +55,7 @@
 		"title":"License English",
 		"format":"txt",
 		"mediatype":"text/plain",
-		"bytes":"4000",
+		"bytes":4000,
 		"schema":{
 			"fields":[
 				{
@@ -70,7 +70,7 @@
 		"title":"License Francais",
 		"format":"txt",
 		"mediatype":"text/plain",
-		"bytes":"5000",
+		"bytes":5000,
 		"schema":{
 			"fields":[
 				{
@@ -85,7 +85,7 @@
 		"title":"Directory Index",
 		"format":"csv",
 		"mediatype":"text/csv",
-		"bytes":"1000",
+		"bytes":1000,
 		"schema":{
 			"fields":[
 				{
