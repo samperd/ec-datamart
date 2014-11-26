@@ -99,7 +99,7 @@
 		},
 		"dialect":{
 			"csvddfVersion": 1.0,
-			"delimiter": " ",
+			"delimiter": "\t",
 			"doubleQuote": true,
 			"lineTerminator": "\r\n",
 			"quoteChar": "",
