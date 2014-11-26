@@ -56,14 +56,7 @@
 		"format":"txt",
 		"mediatype":"text/plain",
 		"bytes":4000,
-		"schema":{
-			"fields":[
-				{
-					"name":"license",
-					"type":"string"
-				}
-			]
-		}
+		
 	},
 	{
 		"path":"license-fr.txt",
@@ -71,14 +64,6 @@
 		"format":"txt",
 		"mediatype":"text/plain",
 		"bytes":5000,
-		"schema":{
-			"fields":[
-				{
-					"name":"license",
-					"type":"string"
-				}
-			]
-		}
 		},
 	{
 		"path":"index.csv",
@@ -102,7 +87,6 @@
 				}
 			]
 		}
-		},
-	{"path":"managementoversight/datapackage.json","title":"Management and Oversight"}
+	}
   ]
 }
