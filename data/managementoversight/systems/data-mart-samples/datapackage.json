@@ -89,37 +89,46 @@
 			"fields":[
 				{
 					"name":"site_id",
+					"description":"Unique site ID",
 					"type":"string"
 				},
 				{
 					"name":"region",
+					"description":"Name of Departmental Region",
 					"type":"string"
 				},
 				{
 					"name":"address",
+					"description":"Street Address",
 					"type":"string"
 				},{
 					"name":"city",
+					"description":"City",
 					"type":"string"
 				},
 				{
 					"name":"prov",
+					"description":"Province name or abbreviation",
 					"type":"string"
 				},
 				{
 					"name":"phone",
+					"description":"Phone Number with area code",
 					"type":"string"
 				},
 				{
 					"name":"email",
+					"description":"E-Mail address",
 					"type":"string"
 				},
 				{
 					"name":"geo_lat",
+					"description":"Location: Latitude",
 					"type":"geopoint"
 				},
 				{
 					"name":"geo_lon",
+					"description":"Location: Logitude",
 					"type":"geopoint"
 				}				
 			]
