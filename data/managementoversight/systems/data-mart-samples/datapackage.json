@@ -139,7 +139,7 @@
 		"primaryKey":"site_id"
 	},
 	{
-		"path":"digest.txt",
+		"url":"https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/digest.txt",
 		"title":"Directory Index",
 		"format":"txt",
 		"mediatype":"text/plain",
