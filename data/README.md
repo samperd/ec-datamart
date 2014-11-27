@@ -5,10 +5,10 @@ This repository is for testing purposes only. The data, files, content and text 
 http://open.canada.ca/en/open-government-licence-canada
 
 # Data Package Navigation
-*  [PREVIOUS](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fdatapackage.json)
-*  [Home](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fdatapackage.json)
-*  [NEXT](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fdatapackage.json)
-	* [Management and Oversight](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fdatapackage.json)
-		* [Systems](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdatapackage.json)
-			* [Data Mart Samples](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fdatapackage.json)
-				* [Birds](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fbirds%2Fdatapackage.json#readme)
+*  [PREVIOUS](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/datapackage.json)
+*  [Home](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/datapackage.json)
+*  [NEXT](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/datapackage.json)
+	* [Management and Oversight](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/datapackage.json)
+		* [Systems](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/datapackage.json)
+			* [Data Mart Samples](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/datapackage.json)
+				* [Birds](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/birds/datapackage.json)
