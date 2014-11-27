@@ -1,4 +1,4 @@
-#Welcome to the Bird Product
+# About this Product
 
 This product contains examples for the EC Data Mart. They are not official products and should not be exposed outside of the department. Products found under this collection can be used for testing and demonstration purposes.
 
@@ -8,10 +8,10 @@ Function: Core Management and Oversight
 Sub-Function: Information Systems for Core Functions
 Collection: Data Mart Samples
 
-#Data Package Navigation
-*[PREVIOUS](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fdatapackage.json)
-*[Home](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fdatapackage.json)
-*[NEXT](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fbirds%2Fdatapackage.json)
+# Data Package Navigation
+* [PREVIOUS](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fdatapackage.json)
+* [Home](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fdatapackage.json)
+* [NEXT](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fbirds%2Fdatapackage.json)
 	* [Management and Oversight](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fdatapackage.json)
 		* Systems](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdatapackage.json)
 			* [Data Mart Samples](data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fdatapackage.json)
