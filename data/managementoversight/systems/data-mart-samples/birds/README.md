@@ -7,3 +7,5 @@ To add to this collection please upload data to the dev instance of the EC data 
 Function: Core Management and Oversight
 Sub-Function: Information Systems for Core Functions
 Collection: Data Mart Samples
+
+PREVIOUS: https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/datapackage.json
