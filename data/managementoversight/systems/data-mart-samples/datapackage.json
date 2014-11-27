@@ -139,7 +139,7 @@
 		"primaryKey":"site_id"
 	},
 	{
-		"url":"https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/digest.txt",
+		"path":"digest.txt",
 		"title":"Directory Index",
 		"format":"txt",
 		"mediatype":"text/plain",
@@ -160,7 +160,7 @@
 		},
 		"dialect":{
 			"csvddfVersion": 1.0,
-			"delimiter": "\t",
+			"delimiter": ",",
 			"doubleQuote": true,
 			"lineTerminator": "\n",
 			"quoteChar": "\"",
