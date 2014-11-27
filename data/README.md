@@ -7,7 +7,7 @@ http://open.canada.ca/en/open-government-licence-canada
 # Data Package Navigation
 *  [PREVIOUS](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/datapackage.json)
 *  [Home](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/datapackage.json)
-*  [NEXT](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/datapackage.json)
+*  [NEXT](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/datapackage.json)
 	* [Management and Oversight](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/datapackage.json)
 		* [Systems](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/datapackage.json)
 			* [Data Mart Samples](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/datapackage.json)
