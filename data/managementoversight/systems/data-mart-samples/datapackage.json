@@ -59,7 +59,7 @@
 	{
 		"url":"../datapackage.json",
 		"title":"Parent",
-		"name":"datapackage.json",
+		"name":"datapackage.json"
 	},
 	{
 		"path":"index.csv",
