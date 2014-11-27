@@ -1,0 +1,8 @@
+file_name,file_path,file_description
+parent,..,Parent Directory
+self,.," ""Current Directory"""
+index.csv,./index.csv,Directory Listing in CSV
+digest.csv,./digest.csv,Office Locations
+birds.csv,./birds.csv,Types of Birds
+behaviour_birds.csv,./behaviour_birds.csv,Type of Bird Bahaviour
+observation_birds.csv,./observation_birds.csv,Bird Observations

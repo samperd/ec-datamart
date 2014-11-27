@@ -1,0 +1,213 @@
+{  
+	"@context":{
+		"skos":"http://www.w3.org/2004/02/skos/core",
+		"ex": "http://example.com/vocab/",
+		"foaf": "http://xmlns.com/foaf/0.1",
+		"dct":"http://purl.org/dc/terms",
+		"dcat":"http://www.w3.org/ns/dcat",
+		"@language": "en",
+		"name": { "@id": "dc:identifier" },
+		"title": { "@id": "dct:title" },
+		"title_fr": { "@id": "dct:title", "@language": "fr" },
+		"description": { "@id": "dct:description" },
+		"description_fr": { "@id": "dct:description", "@language": "fr" },
+		"type": { "@id": "dc:type" },
+		"broader": {"@id":"skos:broader"}
+	},
+	
+
+    "licenses": [{
+                "type": "OGL-Canada-2.0",
+                "url": "http://licenses.opendefinition.org/licenses/OGL-Canada-2.0.json"  }], 
+    "datapackage_version": "1.0-beta.10", 
+    "version":"1.0", 
+    "homepage":"http://donnees.ec.gc.ca/data", 
+    "image":"http://www.canada.ca/dist/assets/wmms-spl.svg", 
+    "sources":[{
+        "name":"Government of Canada, Environment Canada",
+        "web":"http://ec.gc.ca",
+        "e-mail":"enviroinfo@ec.gc.ca"
+    }],
+ 
+    "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
+    "base":"http://data.ec.gc.ca/data/", 
+
+
+	
+  "name": "birds",
+  "type":"Product",
+  "title": "Sample Bird Product",
+  "title_fr": "Accueil",
+  "description":"This Sample Bird Product contains examples for the EC Data Mart. They are not official products and should not be exposed outside of the department. Products found under this collection can be used for testing and demonstration purposes.",
+  "description_fr":"This Sample Bird Product contains examples for the EC Data Mart. They are not official products and should not be exposed outside of the department. Products found under this collection can be used for testing and demonstration purposes.",
+   "title_fr":"Data Mart Samples",
+   "title":"Data Mart Samples",
+   
+   "last_updated":"2014-11-19T20:20:54",
+   "version":"",
+   "metadata":{
+      "id":"701571a4-73d1-459c-9347-9ce94d2b3cd7"
+   },
+  "maintainers":[{
+		"name": "EC Functional group(eg CMC)",
+		"email":"enviroinfo@ec.gc.ca",
+		"web":"http://ec.gc.ca"
+		}],
+
+  "last_updated": "2014-01-1",
+  "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
+  "resources": [
+	{
+		"url":"../datapackage.json",
+		"title":"Parent",
+		"name":"datapackage.json"
+	},
+	{
+		"path":"index.csv",
+		"title":"Directory Index",
+		"format":"csv",
+		"mediatype":"text/csv",
+		"schema":{
+			"fields":[
+				{
+					"name":"name",
+					"description":"File Name",
+					"type":"string"
+				},
+				{
+					"name":"path",
+					"description":"Relative File Path",
+					"type":"string"
+				},
+				{
+					"name":"description",
+					"description":"File Description",
+					"type":"string"
+				}
+			]
+		}
+	},
+	{
+		"path":"digest.txt",
+		"title":"Directory Index",
+		"format":"txt",
+		"mediatype":"text/plain",
+		"bytes":1000,
+		"schema":{
+			"fields":[
+				{
+					"name":"hash_sha256",
+					"description":"File hash using SHA-256",
+					"type":"string"
+				},
+				{
+					"name":"path",
+					"description":"Relative File Path",
+					"type":"string"
+				}
+			]
+		},
+		"dialect":{
+			"csvddfVersion": 1.0,
+			"delimiter": "\t",
+			"doubleQuote": true,
+			"lineTerminator": "\n",
+			"quoteChar": "\"",
+			"skipInitialSpace": true,
+			"header": false
+		}
+	},
+	{
+		"path":"birds.csv",
+		"title":"Types of Birds",
+		"format":"csv",
+		"mediatype":"text/csv",
+		"schema":{
+			"fields":[
+				{
+					"name":"bird_id",
+					"description":"Unique bird ID",
+					"type":"integer"
+				},
+				{
+					"name":"bird_name",
+					"description":"Common Bird Name",
+					"type":"string"
+				},
+				{
+					"name":"bird_sci_name",
+					"description":"Scientific Bird Name",
+					"type":"string"
+				}
+			]
+		},
+		"primaryKey":"bird_id"
+	},
+	{
+		"path":"behaviour_birds.csv",
+		"title":"Behaviours of Birds",
+		"format":"csv",
+		"mediatype":"text/csv",
+		"schema":{
+			"fields":[
+				{
+					"name":"behaviour_id",
+					"description":"Unique behaviour ID",
+					"type":"integer"
+				},
+				{
+					"name":"behaviour",
+					"description":"Type of Behaviour",
+					"type":"string"
+				}
+			]
+		},
+		"primaryKey":"behaviour_id"
+	},
+	{
+		"path":"Observation_birds.csv",
+		"title":"Birdding Observations",
+		"format":"csv",
+		"mediatype":"text/csv",
+		"schema":{
+			"fields":[
+				{
+					"name":"observation_id",
+					"description":"Unique Observation ID",
+					"type":"string"
+				},
+				{
+					"name":"site_id",
+					"description":"Unique Site ID",
+					"type":"string"
+				},
+				{
+					"name":"bird_id",
+					"description":"Unique Bird ID",
+					"type":"string"
+				},
+				{
+					"name":"behaviour_id",
+					"description":"Unique Behaviour ID",
+					"type":"string"
+				}
+			]
+		},
+		"primaryKey":"obserevation_id",
+		"foreignKeys":[
+			{
+				"fields":"site_id",
+				"reference":{
+					"datapackage":"https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/datapackage.json",
+					"resource":"sites",
+					"fields":"site_id"
+				}
+			}
+		]
+	},
+	
+	
+    
+	
+  ]
+}
