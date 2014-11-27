@@ -8,4 +8,4 @@ Function: Core Management and Oversight
 Sub-Function: Information Systems for Core Functions
 Collection: Data Mart Samples
 
-PREVIOUS: https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/datapackage.json
+[PREVIOUS:](https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/datapackage.json)
