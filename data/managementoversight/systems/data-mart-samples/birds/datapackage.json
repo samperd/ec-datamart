@@ -58,7 +58,7 @@
   "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
   "resources": [
 	{
-		"url":"../datapackage.json",
+		"path":"../datapackage.json",
 		"title":"Parent",
 		"name":"datapackage.json"
 	},
@@ -165,7 +165,7 @@
 		"primaryKey":"behaviour_id"
 	},
 	{
-		"path":"Observation_birds.csv",
+		"path":"observation_birds.csv",
 		"title":"Birdding Observations",
 		"format":"csv",
 		"mediatype":"text/csv",
