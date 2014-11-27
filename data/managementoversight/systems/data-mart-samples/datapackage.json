@@ -57,11 +57,6 @@
   "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
   "resources": [
 	{
-		"url":"../datapackage.json",
-		"title":"Parent",
-		"name":"datapackage.json"
-	},
-	{
 		"path":"index.csv",
 		"title":"Directory Index",
 		"format":"csv",

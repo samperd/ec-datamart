@@ -34,29 +34,26 @@
 
 
 	
-  "name": "birds",
-  "type":"Product",
-  "title": "Sample Bird Product",
-  "title_fr": "Accueil",
-  "description":"This Sample Bird Product contains examples for the EC Data Mart. They are not official products and should not be exposed outside of the department. Products found under this collection can be used for testing and demonstration purposes.",
-  "description_fr":"This Sample Bird Product contains examples for the EC Data Mart. They are not official products and should not be exposed outside of the department. Products found under this collection can be used for testing and demonstration purposes.",
-   "title_fr":"Data Mart Samples",
-   "title":"Data Mart Samples",
-   
-   "last_updated":"2014-11-19T20:20:54",
-   "version":"",
-   "metadata":{
+	"name": "birds",
+	"type":"Product",
+	"title": "Sample Bird Product",
+	"title_fr": "Sample Bird Product",
+	"description":"This Sample Bird Product contains examples for the EC Data Mart. They are not official products and should not be exposed outside of the department. Products found under this collection can be used for testing and demonstration purposes.",
+	"description_fr":"This Sample Bird Product contains examples for the EC Data Mart. They are not official products and should not be exposed outside of the department. Products found under this collection can be used for testing and demonstration purposes.",
+	"last_updated":"2014-11-19T20:20:54",
+	"version":"",
+	"metadata":{
       "id":"701571a4-73d1-459c-9347-9ce94d2b3cd7"
    },
-  "maintainers":[{
+	"maintainers":[{
 		"name": "EC Functional group(eg CMC)",
 		"email":"enviroinfo@ec.gc.ca",
 		"web":"http://ec.gc.ca"
 		}],
 
-  "last_updated": "2014-01-1",
-  "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
-  "resources": [
+	"last_updated": "2014-01-1",
+	"image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
+	"resources": [
 	{
 		"path":"index.csv",
 		"title":"Directory Index",
