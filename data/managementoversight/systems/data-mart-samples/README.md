@@ -8,4 +8,4 @@ Function: Core Management and Oversight
 Sub-Function: Information Systems for Core Functions
 Collection: Data Mart Samples
 
-[NEXT:](https://raw.githubusercontent.com/samperd/ec-datamart/develop/data/managementoversight/systems/data-mart-samples/birds/datapackage.json)
+[NEXT:](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsamperd%2Fec-datamart%2Fdevelop%2Fdata%2Fmanagementoversight%2Fsystems%2Fdata-mart-samples%2Fbirds%2Fdatapackage.json#readme)
