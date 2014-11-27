@@ -1,4 +1,6 @@
 "file_name","file_path","file_description"
+"parent","..","Parent Directory"
+"self",".", "Current Directory"
 "index.csv","./index.csv","Directory Listing in CSV"
-"sites.csv","./sites.csv","Office Locations"
 "digest.csv","./digest.csv","Office Locations"
+"sites.csv","./sites.csv","Office Locations"
