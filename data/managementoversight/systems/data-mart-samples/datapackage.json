@@ -160,7 +160,7 @@
 		},
 		"dialect":{
 			"csvddfVersion": 1.0,
-			"delimiter": "\t",
+			"delimiter": ",",
 			"doubleQuote": true,
 			"lineTerminator": "\n",
 			"quoteChar": "\"",

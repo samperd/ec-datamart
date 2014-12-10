@@ -28,8 +28,6 @@
         "web":"http://ec.gc.ca",
         "e-mail":"enviroinfo@ec.gc.ca"
     }],
- 
-    "image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
     "base":"http://data.ec.gc.ca/data/", 
 
 
@@ -52,7 +50,6 @@
 		}],
 
 	"last_updated": "2014-01-1",
-	"image": "http://assets.okfn.org/p/opendatahandbook/img/data-wrench.png",
 	"resources": [
 	{
 		"path":"index.csv",
