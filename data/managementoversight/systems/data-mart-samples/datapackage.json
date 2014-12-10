@@ -139,6 +139,12 @@
 		"primaryKey":"site_id"
 	},
 	{
+		"path":"sites.json",
+		"title":"Office Locations",
+		"format":"geojson",
+		"mediatype":"application/json"
+	},
+	{
 		"path":"digest.txt",
 		"title":"Directory Index",
 		"format":"txt",
